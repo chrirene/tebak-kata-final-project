@@ -2,3 +2,9 @@ ayam
 kambing
 sapi
 jerapah
+monyet
+kijang
+buaya
+kalelawar
+beruang
+koala

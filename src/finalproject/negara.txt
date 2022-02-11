@@ -4,3 +4,7 @@ brunei
 thailand
 vietnam
 australia
+jepang
+singapura
+kazakhstan
+madagazkar
