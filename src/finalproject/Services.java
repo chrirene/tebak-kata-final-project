@@ -72,7 +72,7 @@ public class Services {
         int numberOfChances = randomWord.length();
 
         System.out.println("Panjang Karakter dan Jumlah Kesempatan Kamu untuk Menebak : " + numberOfChances);
-        System.out.println("The word: " + new String(guessingArray));
+        System.out.println("Tebak Kata: " + new String(guessingArray));
 
         while (numberOfChances > 0) {
             System.out.println("-------------------------------------");
