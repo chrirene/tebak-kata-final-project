@@ -71,7 +71,7 @@ public class Services {
         Arrays.fill(guessingArray,'_');
         int numberOfChances = randomWord.length();
 
-        System.out.println("Panjang Karakter dan Jumlah Kesempatan Kamu untuk Menebak : " + numberOfChances);
+        System.out.println("Panjang Karakter dan Jumlah Kesempatan Kamu untuk Menebak: " + numberOfChances);
         System.out.println("Tebak Kata: " + new String(guessingArray));
 
         while (numberOfChances > 0) {
@@ -96,21 +96,21 @@ public class Services {
             }
 
             if (isGuessingCorrect) {
-                System.out.println("It was a good guess.");
+                System.out.println("Tebakkan yang baik!");
                 if (isGameFinished(guessingArray)) {
                     break;
                 }
             } else {
                 numberOfChances--;
                 if (numberOfChances == 0) {
-                    System.out.println("Sorry you ran out of chances.");
-                    System.out.println("The word was : " + randomWord);
+                    System.out.println("Maaf kesempatanmu telah habis.");
+                    System.out.println("Tebak Kata adalah: " + randomWord);
                     break;
                 }
-                System.out.println("Your number of chances is decreased to: " + numberOfChances);
-                System.out.println("Try another letter!");
+                System.out.println("Kesempatan menebak menjadi: " + numberOfChances);
+                System.out.println("Coba kata lain!");
             }
-            System.out.println("The word: " + new String(guessingArray));
+            System.out.println("Tebak Kata: " + new String(guessingArray));
 
         }
 
