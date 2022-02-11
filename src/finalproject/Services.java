@@ -78,6 +78,13 @@ public class Services {
             System.out.println("-------------------------------------");
             System.out.print("Ketikkan 1 Karakter (Huruf): ");
             String inputLine = inputScanner.nextLine().toLowerCase();
+
+            while (inputLine.equals("")) {
+                System.out.println("Karakter tidak boleh kosong!");
+                System.out.print("Ketikkan 1 Karakter (Huruf): ");
+                inputLine = inputScanner.nextLine().toLowerCase();
+            }
+
             char letter = inputLine.charAt(0);
 
             boolean isGuessingCorrect = false;
